@@ -1,52 +1,59 @@
 body {
-    font-family: Verdana;
-    font-size: medium;
-    margin: 0px;
     display: block;
+    font-family: Verdana;
+    font-size: large;
+    margin: 0px;
     color: brown;
 }
 
 .nav-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-direction: row;
     height: 50px;
     background-color: blanchedalmond;
 }
 
 .logo {
-    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+
+.nav-links {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 5px;
 }
 
 .active-page {
     color:brown;
     text-decoration-style: wavy;
+    margin-inline: 10px;
 }
 
 .non-active-page {
     margin-inline: 10px;
     text-decoration: solid;
     color: brown;
-    vertical-align: bottom;
 }
-
-
 
 .main-body {
     display: flex;
-    height: 100vh;
-    background-color: orange;
-    font-size: x-large;
-    font-family: Verdana;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    background-color: skyblue;
+    font-size: x-large;
+    color: black;
 }
 
 .footer {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 75px;
     background-color: blanchedalmond;
-    justify-content: center;
+    
 }
