@@ -1,0 +1,52 @@
+body {
+    font-family: Verdana;
+    font-size: medium;
+    margin: 0px;
+    display: block;
+    color: brown;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 50px;
+    background-color: blanchedalmond;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.active-page {
+    color:brown;
+    text-decoration-style: wavy;
+}
+
+.non-active-page {
+    margin-inline: 10px;
+    text-decoration: solid;
+    color: brown;
+    vertical-align: bottom;
+}
+
+
+
+.main-body {
+    display: flex;
+    height: 100vh;
+    background-color: orange;
+    font-size: x-large;
+    font-family: Verdana;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    background-color: blanchedalmond;
+    justify-content: center;
+}
