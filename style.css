@@ -2,8 +2,8 @@ body {
     display: block;
     font-family: Verdana;
     font-size: large;
-    margin: 0px;
     color: brown;
+    margin: 0px;
 }
 
 .nav-header {
@@ -44,7 +44,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: calc(100vh - 75px - 50px);
     background-color: skyblue;
     font-size: x-large;
     color: black;
