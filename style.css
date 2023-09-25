@@ -31,11 +31,11 @@ body {
 .active-page {
     color:brown;
     text-decoration-style: wavy;
-    margin-inline: 10px;
+    margin-inline: 5px;
 }
 
 .non-active-page {
-    margin-inline: 10px;
+    margin-inline: 5px;
     text-decoration: solid;
     color: brown;
 }
