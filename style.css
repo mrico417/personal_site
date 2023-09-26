@@ -46,7 +46,6 @@ body {
     align-items: center;
     height: calc(100vh - 75px - 50px);
     background-color: skyblue;
-    font-size: x-large;
     color: black;
 }
 
@@ -56,5 +55,5 @@ body {
     justify-content: center;
     height: 75px;
     background-color: blanchedalmond;
-    
+    font-size: small;    
 }
